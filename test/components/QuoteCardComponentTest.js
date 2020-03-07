@@ -14,26 +14,26 @@ import QuoteCard from '../../src/components/QuoteCard';
 
 configure({ adapter: new Adapter() })
 
-describe('QuoteCard Component', () => {
-  const initialState = { ingredients: [] };
+//describe('QuoteCard Component', () => {
+  //const initialState = { ingredients: [] };
 
-  const addQuote = (recipe) => 'noop';
-  let wrapper;
-  let wrapperTwo;
-  let store;
+  //const addQuote = (recipe) => 'noop';
+  //let wrapper;
+  //let wrapperTwo;
+  //let store;
   
-  let quoteOne = {
-    content: 'test quote',
-    author: 'test author',
-    votes: 0,
-    id: 5
-  }
-  let quoteTwo = {
-    content: 'testing this quote',
-    author: 'authoring this test',
-    votes: 10,
-    id: 5
-  }
+  //let quoteOne = {
+    //content: 'test quote',
+    //author: 'test author',
+    //votes: 0,
+  //  id: 5
+//  }
+  //let quoteTwo = {
+    //content: 'testing this quote',
+    //author: 'authoring this test',
+    //votes: 10,
+  //  id: 5
+//  }
 
 
   it('renders quote content from props.quote', () => {
