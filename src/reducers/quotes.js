@@ -32,7 +32,7 @@ export default (state = [], action) => {
       }
       return state;
 
-    default: 
+    default:
       return state;
   }
 }
